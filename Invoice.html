@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./Invoice.css">
+    <title>Invoice-page</title>
+</head>
+
+<body>
+    <div class="invoice-page">
+        <!-- header part stat here -->
+        <div class="header-part">
+
+            <div class="header-content ">
+
+                <div class="left-side d-flex">
+                    <div class="logo-css">
+                        <img src="./img/header/page-logo.png" />
+                    </div>
+                    <div class="web-logo">Barratio</div>
+                    <div class=" hamburg-left-mrgn">
+                        <button class="hamburg-icon-btn">
+                            <img class="hem-img" src="./img/header/Hamburg.svg" />
+                        </button>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+        <!-- sidebarpart start here -->
+        <div class="sidebar-part ">
+            <div class="sidebar-link ">
+                <div class="sidebar-nav">NAVIGATION</div>
+                <a href="#"><img class="home-img" src="./img/sidebar/home.svg" />
+                    <div class="text-hover">Home</div>
+                </a>
+                <div class="d-flex"><a href="#"> <img class="trolly-img" src="./img/sidebar/cart.svg" />
+                        <div class="dropdown">
+                            <div class="d-flex align-content-center"> <button class="dropbtn">Purchase</button><img
+                                    class="drp-img-css" src="./img/sidebar/drodown-arrow.svg" /></div>
+
+                            <div class="dropdown-content">
+                                <a href="#">Main</a>
+                                <a href="#">Invoice</a>
+
+                                <a href="#">Supplier</a>
+                                <a href="#">Products</a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <!-- main-content-part start here -->
+        <div class="main-content">
+            <div class="mrgn-left-right">
+                <div class=" top-line-css">
+                    <div class="invoices-heading">Invoice Approval</div>
+                    <div class="directory">
+                        <div class="dir-first">Purchase</div>
+                        <div class="dir-second">></div>
+                        <div class="dir-third">Invoice Approval</div>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="first-left-parent">
+                            <div class="round-css">
+                                <div class="left-img">
+                                    <img src="./img/main-content/pdf-img.png" />
+                                </div>
+                            </div>
+                            <div class="right-text">
+                                <div class="right-text-frt">5</div>
+                                <div class="right-text-frt-1 ">Total Invoices</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 responsive-mrgn">
+                        <div class="first-left-parent">
+                            <div class="round-css">
+                                <div class="right-img">
+                                    <img src="./img/main-content/Group.png" />
+                                </div>
+                            </div>
+                            <div class="right-text">
+                                <div class="right-text-scnd">6146.90€</div>
+                                <div class="right-text-frt-1 ">Balance due</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row card-mrgin">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="first-line-left">
+                            <div class="second-line-heading">
+                                <div class="graph-text-style">Invoices to be paid </div>
+                                <div class="img-graph-1"><img class="graph-img"
+                                        src="./img/main-content/line-graph.png" /></div>
+                            </div>
+                            <div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="first-line-right">
+                            <div class="second-line-heading-1">
+                                <div class="graph-text-style">Invoice dues per supplier by status</div>
+                            </div>
+                            <div class="chart-css">
+                                <div class="piechart"><img class="pie-chart" src="./img/main-content/pie-chart.png" />
+                                </div>
+                                <div class="chart-data">
+                                    <div class="text">
+                                        <div class="color-box chart-color-3">
+
+                                        </div>
+                                        <div class="pie-chart-text"> PASSIONFROID PARIS SUD</div>
+                                    </div>
+
+                                    <div class="text">
+                                        <div class="color-box chart-color-1">
+
+                                        </div>
+                                        <div class="pie-chart-text">EPISAVEURS AQUITAINE</div>
+                                    </div>
+                                    <div class="text">
+                                        <div class="color-box chart-color-2">
+
+                                        </div>
+                                        <div class="pie-chart-text"> PASSIONFROID PARIS SUD</div>
+                                    </div>
+                                    <div class="text">
+                                        <div class="color-box chart-color-3">
+
+                                        </div>
+                                        <div class="pie-chart-text"> FRAICHADOUR</div>
+                                    </div>
+                                    <div class="text">
+                                        <div class="color-box chart-color-4">
+                                        </div>
+                                        <div class="pie-chart-text">AXURIA</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <div class="third-line ovrfl-1">
+                            <div class="third-linetext">
+                                <div class="table-heading-2">Dues Invoices</div>
+                                <div class="input-type"><input placeholder="Search " />
+                                    <div class="srch-prt-dv"><img class="input-search"
+                                            src="./img/main-content/search-bar.svg" />
+                                        </div>
+                                </div>
+
+                                <div class="table-list">
+                                    <div class="select-dropdown"> <label>Show </label>
+                                        <select class="select-dropdown-1" name="">
+                                            <option value="">25</option>
+                                            <option value="">26</option>
+                                            <option value="">27</option>
+                                            <option value="">28</option>
+
+                                        </select>
+                                        <label>entries</label>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <table class="table ">
+                                <thead>
+                                    <tr class=" brd-tp">
+                                        <th scope="col"><input class="row-checkbox" type="checkbox" /></th>
+                                        <th scope="col">
+                                            <div class="tb-head-text">
+                                                <div class="hd-mrgn-lft">Invoice Number</div>
+                                                <img class="arrow-size" alt=""
+                                                    src="./img/main-content/up-down-arrow.png" />
+                                            </div>
+                                        </th>
+                                        <th scope="col">
+                                            <div class="tb-head-text">
+                                                <div class="hd-mrgn-lft">Supplier Name</div> <img
+                                                    class="arrow-size arrow-size-lft-mrgn" alt=""
+                                                    src="./img/main-content/up-down-arrow.png" />
+                                            </div>
+
+                                        </th>
+                                        <th scope="col">
+                                            <div class="four-dot">
+                                                <div class="status-text">Status</div>
+                                                <span class=" dot-color-1 mrgin-frst"></span>
+                                                <span class="dot dot-color-2"></span>
+                                                <span class="dot dot-color-3"></span>
+                                                <span class="dot dot-color-4"></span>
+                                                <div class="dropdown">
+                                                    <button class="btn btn-secondary dropdown-toggle btn-filter"
+                                                        type="button" data-bs-toggle="dropdown" aria-expanded="false">
+
+                                                    </button>
+                                                    <ul class="dropdown-menu dropdown-menu-right ul-css">
+                                                        <li class="li-css"> <input class="check-box-mrgn"
+                                                                type="checkbox" /><a class="drop-cmmn dropdown-item-1 "
+                                                                href="#">Open for Approval</a></li>
+                                                        <li class="li-css"><input class="check-box-mrgn"
+                                                                type="checkbox" /> <a class="drop-cmmn dropdown-item-2"
+                                                                href="#">Pending for Approval</a></li>
+                                                        <li class="li-css"><input class="check-box-mrgn"
+                                                                type="checkbox" /> <a class="drop-cmmn dropdown-item-4"
+                                                                href="#">Payment Required</a>
+                                                        </li>
+                                                        <li class="li-css"><input class="check-box-mrgn"
+                                                                type="checkbox" /> <a class="drop-cmmn dropdown-item-4"
+                                                                href="#">Partially Paid</a>
+                                                        </li>
+                                                    </ul>
+
+                                                </div>
+                                            </div>
+
+
+
+                                        </th>
+                                        <th scope="col">
+                                            <div class="tb-head-text">
+                                                <div class="hd-mrgn-lft"> Blance Due</div>
+                                                <img class="arrow-size" alt=""
+                                                    src="./img/main-content/up-down-arrow.png" />
+                                            </div>
+                                        </th>
+                                        <th scope="col">
+                                            <div class="tb-head-text">
+                                                <div class="hd-mrgn-lft">Discrepancies</div> <img class="arrow-size"
+                                                    alt="" src="./img/main-content/up-down-arrow.png" />
+                                            </div>
+                                        </th>
+                                        <th scope="col">
+                                            <div class="tb-head-text">
+                                                <div class="hd-mrgn-lft">Update Date</div><img class="arrow-size" alt=""
+                                                    src="./img/main-content/up-down-arrow.png" />
+                                            </div>
+                                        </th>
+                                        <th scope="col">
+                                            <div class="tb-head-text">
+                                                <div class="hd-mrgn-lft">Due Date</div> <img class="arrow-size" alt=""
+                                                    src="./img/main-content/up-down-arrow.png" />
+                                            </div>
+                                        </th>
+                                        <th scope="col">
+                                            <div class="tb-head-text">
+                                                <div class="hd-mrgn-lft">Remaining Days</div> <img class="arrow-size"
+                                                    alt="" src="./img/main-content/up-down-arrow.png" />
+                                            </div>
+                                        </th>
+                                        <th scope="col">
+                                            <div class="tb-head-text">
+                                                <div class="hd-mrgn-lft">Assignee</div>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="col"><input class="row-checkbox" type="checkbox" /></th>
+                                        <td class="tble-col-clr ">8375004210</td>
+                                        <td>PASSIONFROID PARIS SUD</td>
+                                        <td>
+                                            <div class="status-color cl-1">Open for Approval</div>
+                                        </td>
+                                        <td class="crl-txt">670.50€</td>
+                                        <td>
+                                            <div class="status-color-2 cl">0</div>
+                                        </td>
+                                        <td>10/Sep/2022</td>
+                                        <td>22/Dec/2022</td>
+                                        <td>
+                                            <div class="days-cl-text days-cl-1">-57 days</div>
+                                        </td>
+                                        <td class="img-text"><img class="img-right-mrgn" alt="client"
+                                                src="./img/main-content/client-1.png" />
+                                            <div class="client-three-dt">
+                                                <div class="d-flex  align-items-center"> Georgia Carte</div>
+
+                                                <div class="three-gray-dot">
+                                                    <div class="four-dot">
+
+
+                                                        <img class=" " src="./img/main-content/backword (1).png" />
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    <tr>
+                                        <th scope="col"><input class="row-checkbox" type="checkbox" /></th>
+                                        <td class="tble-col-clr">677</td>
+                                        <td>THORTON</td>
+                                        <td>
+                                            <div class="status-color cl-1">Open for Approval</div>
+                                        </td>
+                                        <td>670.50€</td>
+                                        <td>
+                                            <div class="status-color-2 cl">0</div>
+                                        </td>
+                                        <td>22/Dec/2022</td>
+                                        <td>22/Dec/2022</td>
+                                        <td>
+                                            <div class="days-cl-text days-cl-2">-67 days</div>
+                                        </td>
+                                        <td class="img-text"><img class="img-right-mrgn" alt="client"
+                                                src="./img/main-content/client-2.png" />
+                                            <div class="client-three-dt">
+                                                <div class="d-flex  align-items-center"> Georgia Carte</div>
+
+                                                <div class="three-gray-dot">
+                                                    <div class="four-dot">
+
+
+                                                        <img class=" " src="./img/main-content/backword (1).png" />
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col"><input class="row-checkbox" type="checkbox" /></th>
+                                        <td class="tble-col-clr">0224812</td>
+                                        <td>PASSIONFROID PARIS SUD</td>
+                                        <td>
+                                            <div class="status-color cl-2">Payment Required</div>
+                                        </td>
+                                        <td>670.50€</td>
+                                        <td>
+                                            <div class="status-color-2 cl">0</div>
+                                        </td>
+                                        <td>10/Sep/2022</td>
+                                        <td>22/Dec/2022</td>
+                                        <td>
+                                            <div class="days-cl-text days-cl-3">-37 days</div>
+                                        </td>
+                                        <td class="img-text"><img class="img-right-mrgn" alt="client"
+                                                src="./img/main-content/client-1.png" />
+                                            <div class="client-three-dt">
+                                                <div class="d-flex  align-items-center"> Georgia Carte</div>
+
+                                                <div class="three-gray-dot">
+                                                    <div class="four-dot">
+
+
+                                                        <img class=" " src="./img/main-content/backword (1).png" />
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col"><input class="row-checkbox" type="checkbox" /></th>
+                                        <td class="tble-col-clr">837500</td>
+                                        <td>THORTON</td>
+                                        <td>
+                                            <div class="status-color cl-2">Payment Required</div>
+                                        </td>
+                                        <td>670.50€</td>
+                                        <td>
+                                            <div class="status-color-2 cl ">0</div>
+                                        </td>
+                                        <td>10/Sep/2022</td>
+                                        <td>22/Dec/2022</td>
+                                        <td>
+                                            <div class="days-cl-text days-cl-4">57 days</div>
+                                        </td>
+                                        <td class="img-text"><img class="img-right-mrgn" alt="client"
+                                                src="./img/main-content/client-2.png" />
+                                            <div class="client-three-dt">
+                                                <div class="d-flex  align-items-center"> Georgia Carte</div>
+
+                                                <div class="three-gray-dot">
+                                                    <div class="four-dot">
+
+
+                                                        <img class=" " src="./img/main-content/backword (1).png" />
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col"><input class="row-checkbox" type="checkbox" /></th>
+                                        <td class="tble-col-clr">837500</td>
+                                        <td>FRAICHADOUR</td>
+                                        <td>
+                                            <div class="status-color cl-3">Pending for Approval</div>
+                                        </td>
+                                        <td>670.50€</td>
+                                        <td>
+                                            <div class="status-color-2 cl">0</div>
+                                        </td>
+                                        <td>10/Sep/2022</td>
+                                        <td>22/Dec/2022</td>
+                                        <td>
+                                            <div class="days-cl-text days-cl-5">10 days</div>
+                                        </td>
+                                        <td class="img-text"><img class="img-right-mrgn" alt="client"
+                                                src="./img/main-content/client-1.png" />
+                                            <div class="client-three-dt">
+                                                <div class="d-flex  align-items-center"> Georgia Carte</div>
+
+                                                <div class="three-gray-dot">
+                                                    <div class="four-dot">
+
+
+                                                        <img class=" " src="./img/main-content/backword (1).png" />
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+
+
+                                </tbody>
+                            </table>
+                            <div class="lw-btn"> <button type="button" class="btn btn-secondary">Batch View</button>
+                            </div>
+
+
+                            <div class="pg-css">
+                                <div class="crd-ftr-txt">
+                                    <div class="entries-no">1 to 5 of 5 entries</div>
+                                    <div class="d-flex ">
+                                        <div class="forward "> <a href="#"><img alt="arrow"
+                                                    src="./img/main-content/forward-arr.svg" /></a>
+                                        </div>
+                                        <div class="mrgn-page">1</div>
+                                        <div class="forward "><a class="page-link" href="#"><img alt="arrow"
+                                                    src="./img/main-content/backwrd-arr.svg" /></a></div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+
+                            <div class="third-line ovrfl-2">
+                                <div class="third-linetext">
+                                    <div class="table-heading-2">Transaction History</div>
+                                    <div class="input-type"><input placeholder="Search " />
+                                        <div class="srch-prt-dv"><img class="input-search"
+                                                src="./img/main-content/search-bar.svg" /></div>
+                                    </div>
+
+                                    <div class="table-list">
+                                        <div class="select-dropdown"> <label>Show </label>
+                                            <select class="select-dropdown-1" name="">
+                                                <option value="">25</option>
+                                                <option value="">26</option>
+                                                <option value="">27</option>
+                                                <option value="">28</option>
+
+                                            </select>
+                                            <label>entries</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <table class="table ">
+                                    <thead>
+                                        <tr class=" brd-tp">
+                                            <th scope="col"></th>
+                                            <th scope="col">
+                                                <div class="tb-head-text">
+                                                    <div>Invoice Number</div>
+                                                    <img class="arrow-size" alt=""
+                                                        src="./img/main-content/up-down-arrow.png" />
+                                                </div>
+                                            </th>
+                                            <th scope="col">
+                                                <div class="tb-head-text">
+                                                    <div>Supplier Name</div> <img class="arrow-size " alt=""
+                                                        src="./img/main-content/up-down-arrow.png" />
+                                                </div>
+                                            </th>
+                                            <th scope="col">
+                                                <div class="four-dot">
+                                                    <h4 class="status-text">Status</h4>
+                                                    <span class="dot dot-color-02  mrgin-frst"></span>
+                                                    <span class="dot dot-color-02"></span>
+
+                                                    <div class="dropdown">
+                                                        <button class="btn btn-secondary dropdown-toggle btn-filter"
+                                                            type="button" data-bs-toggle="dropdown"
+                                                            aria-expanded="false">
+
+                                                        </button>
+                                                        <ul class="dropdown-menu dropdown-menu-right ul-css">
+                                                            <li class="li-css"><input class="check-box-mrgn"
+                                                                    type="checkbox" /> <a
+                                                                    class="drop-cmmn dropdown-item-2" href="#">Pending
+                                                                    for Approval</a></li>
+                                                            <li class="li-css"><input class="check-box-mrgn"
+                                                                    type="checkbox" /> <a
+                                                                    class="drop-cmmn dropdown-item-2" href="#">Pending
+                                                                    for Approval</a></li>
+                                                            <li class="li-css"><input class="check-box-mrgn"
+                                                                    type="checkbox" /> <a
+                                                                    class="drop-cmmn dropdown-item-4" href="#">Payment
+                                                                    Required</a>
+                                                            </li>
+                                                            <li class="li-css"><input class="check-box-mrgn"
+                                                                    type="checkbox" /> <a
+                                                                    class="drop-cmmn dropdown-item-4" href="#">Partially
+                                                                    Paid</a>
+                                                            </li>
+                                                        </ul>
+
+                                                    </div>
+                                                </div>
+
+                                            </th>
+                                            <th scope="col">
+                                                <div class="tb-head-text">
+                                                    <div> Payment Amount</div>
+                                                    <img class="arrow-size" alt=""
+                                                        src="./img/main-content/up-down-arrow.png" />
+                                                </div>
+                                            </th>
+
+                                            <th scope="col">
+                                                <div class="tb-head-text">
+                                                    <div> Payment Date</div>
+                                                    <img class="arrow-size" alt=""
+                                                        src="./img/main-content/up-down-arrow.png" />
+                                                </div>
+                                            </th>
+
+                                            <th scope="col">
+                                                <div class="tb-head-text">
+                                                    <div> Payment Method</div>
+                                                    <img class="arrow-size" alt=""
+                                                        src="./img/main-content/up-down-arrow.png" />
+                                                </div>
+                                            </th>
+                                            <th scope="col">
+                                                <div class="tb-head-text">
+                                                    <div> Assignee</div>
+
+                                                </div>
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="col"></th>
+                                            <td class="tble-col-clr">3MW1JGUVQN</td>
+                                            <td>FRAICHADOUR</td>
+                                            <td>
+                                                <div class="status-color dot-color-01 ">Payment Completed</div>
+                                            </td>
+                                            <td>670.50€</td>
+
+                                            <td>10/Sep/2022</td>
+
+                                            <td>
+                                                <div class="transfer-mn"><img class="img-right-mrgn-1" alt="client"
+                                                        src="./img/main-content/wire-transfer.png" />
+                                                    <div> Wire-transfer</div>
+                                                </div>
+                                            </td>
+                                            <td class="img-text"><img class="img-right-mrgn" alt="client"
+                                                    src="./img/main-content/client-1.png" />
+                                                <div class="client-three-dt">
+                                                    <div class="d-flex  align-items-center"> Georgia Carte</div>
+
+                                                    <div class="three-gray-dot">
+                                                        <div class="four-dot">
+
+                                                            <span class="dot-clr td-clr"></span>
+                                                            <span class="dot-clr td-clr"></span>
+                                                            <span class="dot-clr td-clr"></span>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        <tr>
+                                            <th scope="col"></th>
+                                            <td class="tble-col-clr">3MW1JGUVQN</td>
+                                            <td>THORTON</td>
+                                            <td>
+                                                <div class="status-color dot-color-01 ">Payment Completed</div>
+                                            </td>
+                                            <td>670.50€</td>
+                                            <td>22/Dec/2022</td>
+
+                                            <td>
+                                                <div class="transfer-mn"><img class="img-right-mrgn-1" alt="client"
+                                                        src="./img/main-content/wire-transfer.png" />
+                                                    <div> Wire-transfer</div>
+                                                </div>
+                                            </td>
+                                            <td class="img-text"><img class="img-right-mrgn" alt="client"
+                                                    src="./img/main-content/client-2.png" />
+                                                <div class="client-three-dt">
+                                                    <div class="d-flex  align-items-center"> Georgia Carte</div>
+
+                                                    <div class="three-gray-dot">
+                                                        <div class="four-dot">
+
+                                                            <span class="dot-clr td-clr"></span>
+                                                            <span class="dot-clr td-clr"></span>
+                                                            <span class="dot-clr td-clr"></span>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="col"></th>
+                                            <td class="tble-col-clr">3MW1JGUVQN</td>
+                                            <td>FRAICHADOUR</td>
+                                            <td>
+                                                <div class="status-color dot-color-01 ">Payment Completed</div>
+                                            </td>
+                                            <td>670.50€</td>
+
+                                            <td>10/Sep/2022</td>
+
+                                            <td>
+                                                <div class="transfer-mn"><img class="img-right-mrgn-1" alt="client"
+                                                        src="./img/main-content/wire-transfer.png" />
+                                                    <div> Wire-transfer</div>
+                                                </div>
+                                            </td>
+
+
+                                            <td class="img-text"><img class="img-right-mrgn" alt="client"
+                                                    src="./img/main-content/client-1.png" />
+                                                <div class="client-three-dt">
+                                                    <div class="d-flex  align-items-center"> Georgia Carte</div>
+
+                                                    <div class="three-gray-dot">
+                                                        <div class="four-dot">
+
+                                                            <span class="dot-clr td-clr"></span>
+                                                            <span class="dot-clr td-clr"></span>
+                                                            <span class="dot-clr td-clr"></span>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+
+
+
+                                        </tr>
+
+
+
+                                    </tbody>
+                                </table>
+                                <div class="pg-css">
+                                    <div class="crd-ftr-txt">
+                                        <div class="entries-no">1 to 3 of 3 entries</div>
+                                        <div class="d-flex ">
+                                            <div class="forward "> <a href="#"><img alt="arrow"
+                                                        src="./img/main-content/forward-arr.svg" /></a>
+                                            </div>
+                                            <div class="mrgn-page">1</div>
+                                            <div class="forward "><a class="page-link" href="#"><img alt="arrow"
+                                                        src="./img/main-content/backwrd-arr.svg" /></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
